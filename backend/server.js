@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 
 const hostname = 'localhost';
 const port = 2023;
-
+console.log('hi')
 /* username : ticketingsystem , password : a6krmaSGoX3O6CL6 */
 mongoURL = 'mongodb+srv://ticketingsystem:a6krmaSGoX3O6CL6@cluster0.hppktsf.mongodb.net/?retryWrites=true&w=majority'
 mongoose.connect( mongoURL )
@@ -18,4 +18,3 @@ const server = http.createServer((req, res) => {
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 });
-console.log('hi')
