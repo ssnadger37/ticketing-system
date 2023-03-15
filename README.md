@@ -2,4 +2,6 @@
  
 Changes has been done in this file
 
-Branch update from Git is working...
+New Changes avaliable
+
+Branch update from Git is working... 
