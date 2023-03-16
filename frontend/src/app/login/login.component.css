@@ -1,0 +1,13 @@
+.login-card{
+    margin-top: 10%;
+    width: 20%;
+}
+mat-label {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+input[type=text]{
+    width: 100%;
+}
